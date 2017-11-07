@@ -317,9 +317,9 @@ class Search extends Board
                 continue;
             }
 
-            $indices[] = $radix->shortname.'_ancient';
-            $indices[] = $radix->shortname.'_main';
-            $indices[] = $radix->shortname.'_delta';
+            $indices[] = '`'.$radix->shortname.'_ancient`';
+            $indices[] = '`'.$radix->shortname.'_main`';
+            $indices[] = '`'.$radix->shortname.'_delta`';
         }
 
         // establish connection
